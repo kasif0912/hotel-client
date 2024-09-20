@@ -5,7 +5,7 @@ const LandingScreen = () => {
   const navigate = useNavigate();
 
   const enter = () => {
-    navigate("/home");
+    navigate("/login");
   };
   return (
     <div className="landing">

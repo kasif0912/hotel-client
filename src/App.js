@@ -12,25 +12,19 @@ import LandingScreen from "./pages/LandingScreen";
 
 const App = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route exact path="/" element={<LandingScreen />} />
-          <Route exact path="/home" element={<HomeScreen />} />
-          <Route exact path="/signup" element={<Signup />} />
-          <Route exact path="/login" element={<Login />} />
-          <Route
-            exact
-            path="/book/:id/:fromDate/:toDate"
-            element={<BookingScreen />}
-          />
-          <Route exact path="/success" element={<Success />} />
-          <Route exact path="/profilescreen" element={<ProfileScreen />} />
-          <Route exact path="/admin" element={<AdminScreen />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<LandingScreen />} />
+        <Route exact path="/home" element={<HomeScreen />} />
+        <Route exact path="/signup" element={<Signup />} />
+        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/book/:id/:fromDate/:toDate" element={<BookingScreen />} />
+        <Route exact path="/success" element={<Success />} />
+        <Route exact path="/profilescreen" element={<ProfileScreen />} />
+        <Route exact path="/admin" element={<AdminScreen />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
