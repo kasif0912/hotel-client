@@ -97,7 +97,7 @@ const BookingScreen = () => {
         <div className="main" style={{ marginTop: "70px" }}>
           <div className="left">
             <h1>{roomData?.name}</h1>
-            <img src={roomData?.imageUrls[0]} className="bigimg" />
+            <img src={roomData?.imageUrls[0]} className="bigimg" alt="big" />
           </div>
           <div className="right">
             <h1>Booking Details</h1>

@@ -59,7 +59,7 @@ const Room = ({ room, fromDate, toDate }) => {
             {room.imageUrls.map((url) => {
               return (
                 <Carousel.Item>
-                  <img className="d-block w-100 bigimg" src={url} />
+                  <img className="d-block w-100 bigimg" src={url} alt="bigimg" />
                 </Carousel.Item>
               );
             })}

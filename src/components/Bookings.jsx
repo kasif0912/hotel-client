@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Loader from "../components/Loader";
 import "./Booking.css"; // Import the CSS file
 import { cancelBooking, getBookingByUserId } from "../redux/roomBooking/Action";
-import { Tag, Divider } from "antd";
+import { Tag } from "antd";
 
 const Bookings = () => {
   const token = localStorage.getItem("jwt");

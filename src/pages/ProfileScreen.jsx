@@ -16,7 +16,7 @@ const ProfileScreen = () => {
     if (token) {
       dispatch(getUser(token));
     }
-  }, [token, dispatch]);
+  }, [ dispatch]);
   useEffect(() => {
     if (!auth) {
       navigate("/login");
