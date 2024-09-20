@@ -3,7 +3,6 @@ import HashLoader from "react-spinners/HashLoader";
 
 const Loader = () => {
   let [loading, setLoading] = useState(true);
-  setLoading(loading);
   return (
     <div className="sweet-loading text-center">
       <HashLoader color="#000" loading={loading} cssOverride="" size={80} />
