@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg fixed-top">
-        <a className="navbar-brand">
+        <a className="navbar-brand" href="/">
         The Chic Nook
         </a>
         <button
